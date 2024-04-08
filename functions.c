@@ -35,6 +35,7 @@ void printByRadius(float r, struct array arr){
             found = 1;
         }
     }
+    //
     if (found) {
         print(arr.circles[--i]);
     } else{
